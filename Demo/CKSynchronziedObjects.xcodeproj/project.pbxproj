@@ -32,20 +32,20 @@
 		EFA433CE1759AE7200A81BC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EFA433D01759AE7200A81BC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EFA433D21759AE7200A81BC2 /* CKSynchronziedObjects-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CKSynchronziedObjects-Prefix.pch"; sourceTree = "<group>"; };
-		EFA433D31759AE7200A81BC2 /* CKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CKAppDelegate.h; sourceTree = "<group>"; };
-		EFA433D41759AE7200A81BC2 /* CKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CKAppDelegate.m; sourceTree = "<group>"; };
+		EFA433D31759AE7200A81BC2 /* CKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CKAppDelegate.h; path = CKSynchronizedObjectsDemo/CKAppDelegate.h; sourceTree = "<group>"; };
+		EFA433D41759AE7200A81BC2 /* CKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CKAppDelegate.m; path = CKSynchronizedObjectsDemo/CKAppDelegate.m; sourceTree = "<group>"; };
 		EFA433D61759AE7200A81BC2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		EFA433D81759AE7200A81BC2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		EFA433DA1759AE7200A81BC2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		EFA433DD1759AE7200A81BC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		EFA433DF1759AE7200A81BC2 /* CKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CKViewController.h; sourceTree = "<group>"; };
-		EFA433E01759AE7200A81BC2 /* CKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CKViewController.m; sourceTree = "<group>"; };
-		EFA433EA1759B31B00A81BC2 /* CKSynchronizedArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKSynchronizedArray.h; sourceTree = "<group>"; };
-		EFA433EB1759B31B00A81BC2 /* CKSynchronizedArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKSynchronizedArray.m; sourceTree = "<group>"; };
-		EFA433ED1759B7D900A81BC2 /* CKSynchronizedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKSynchronizedObject.h; sourceTree = "<group>"; };
-		EFA433EE1759B7D900A81BC2 /* CKSynchronizedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKSynchronizedObject.m; sourceTree = "<group>"; };
-		EFA433F01759B80D00A81BC2 /* CKSynchronizedDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKSynchronizedDictionary.h; sourceTree = "<group>"; };
-		EFA433F11759B80D00A81BC2 /* CKSynchronizedDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKSynchronizedDictionary.m; sourceTree = "<group>"; };
+		EFA433DF1759AE7200A81BC2 /* CKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CKViewController.h; path = CKSynchronizedObjectsDemo/CKViewController.h; sourceTree = "<group>"; };
+		EFA433E01759AE7200A81BC2 /* CKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CKViewController.m; path = CKSynchronizedObjectsDemo/CKViewController.m; sourceTree = "<group>"; };
+		EFA433EA1759B31B00A81BC2 /* CKSynchronizedArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CKSynchronizedArray.h; path = ../CKSynchronizedObjects/CKSynchronizedArray.h; sourceTree = "<group>"; };
+		EFA433EB1759B31B00A81BC2 /* CKSynchronizedArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CKSynchronizedArray.m; path = ../CKSynchronizedObjects/CKSynchronizedArray.m; sourceTree = "<group>"; };
+		EFA433ED1759B7D900A81BC2 /* CKSynchronizedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CKSynchronizedObject.h; path = ../CKSynchronizedObjects/CKSynchronizedObject.h; sourceTree = "<group>"; };
+		EFA433EE1759B7D900A81BC2 /* CKSynchronizedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CKSynchronizedObject.m; path = ../CKSynchronizedObjects/CKSynchronizedObject.m; sourceTree = "<group>"; };
+		EFA433F01759B80D00A81BC2 /* CKSynchronizedDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CKSynchronizedDictionary.h; path = ../CKSynchronizedObjects/CKSynchronizedDictionary.h; sourceTree = "<group>"; };
+		EFA433F11759B80D00A81BC2 /* CKSynchronizedDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CKSynchronizedDictionary.m; path = ../CKSynchronizedObjects/CKSynchronizedDictionary.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,6 +215,7 @@
 				EFA433DD1759AE7200A81BC2 /* en */,
 			);
 			name = MainStoryboard.storyboard;
+			path = CKSynchronizedObjectsDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
