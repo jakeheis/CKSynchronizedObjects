@@ -7,6 +7,8 @@
 //
 
 #import "CKViewController.h"
+#import "CKSynchronizedArray.h"
+#import "CKSynchronizedDictionary.h"
 
 @interface CKViewController ()
 
@@ -14,10 +16,24 @@
 
 @implementation CKViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+    NSString *docDir = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)[0];
+    
+    CKSynchronizedArray *array = [CKSynchronizedArray synchronizedArrayWithFilePath:[docDir stringByAppendingPathComponent:@"array.plist"]];
+    if (![array count]) {
+        [array addObject:@"hi there"];
+        [array addObject:@"sup"];
+    } else {
+        [array changeArrayAndSynchronize:^(NSMutableArray *array) {
+            [array removeAllObjects];
+        }];
+    }
+    
+    CKSynchronizedDictionary *dict = [CKSynchronizedDictionary synchronizedDictionaryWithFilePath:[docDir stringByAppendingPathComponent:@"dict"] synchronizationType:CKFileSynchronizationTypeArchivedData];
+    [dict setVal:@"hey there" forKey:@"greeting"];
+    [dict setVal:@"sup" forKey:@"duos"];
 }
 
 - (void)didReceiveMemoryWarning
