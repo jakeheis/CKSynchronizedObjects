@@ -1,8 +1,8 @@
 //
 //  CKAppDelegate.h
-//  CKSynchronziedObjects
+//  Demo
 //
-//  Created by Jake Heiser on 5/31/13.
+//  Created by Jake Heiser on 6/5/13.
 //  Copyright (c) 2013 jakeheiser. All rights reserved.
 //
 
