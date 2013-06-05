@@ -35,9 +35,13 @@ CKSynchronizedObjects provide some basic hooks into their underlying objects:
 -(void)setVal:(id)value forKey:(NSString *)aKey;
 ```
 
+After any of these methods are called on the underlying object (array/dictionary), it is automatically synced with the file you specified during initialization.
+
 Any more advanced changes you need to make can be done easily as well:
 ```objc
 [syncArray changeArrayAndSynchronize:^(NSMutableArray *array) {
         [array exchangeObjectAtIndex:3 withObjectAtIndex:1];
 }];
 ```
+
+After this block is executed, the array is, again, automatically synced.
