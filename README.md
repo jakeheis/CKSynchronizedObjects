@@ -44,4 +44,4 @@ Any more advanced changes you need to make can be done easily as well:
 }];
 ```
 
-After this block is executed, the array is, again, automatically synced.
+After this block is executed, the object is also automatically synced.
